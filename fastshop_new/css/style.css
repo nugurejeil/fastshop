@@ -1,0 +1,180 @@
+@charset "utf-8";
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+/************** base css *******************/
+
+
+
+body{
+    font-family: "나눔고딕", NanumGothic, "맑은고딕", MalgunGothic, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+
+a { 
+    color: black; 
+}
+
+
+
+/************** layout css *******************/
+
+/**** global_header ****/
+#global_header .global_header_top input{
+    float:left;
+}
+#global_header .global_header_top nav ul{
+    float:right;
+}
+#global_header .global_header_top nav li{
+    float:left;
+}
+#global_header .global_header_bottom img{
+    margin:0 auto; 
+}
+#global_header .global_header_bottom li{
+    float:left;
+}
+
+
+/**** global_footer ****/
+#global_footer img{
+    float:left;
+}
+#global_footer .global_footer_ul > li{
+    float:left;
+}
+#global_footer p:last-child{
+    text-align:center;
+}
+
+
+/**** main_main ****/
+#main_main .main_main_weekly li{
+    float:left;
+}
+#main_main h2{
+    text-align:center;
+}
+
+/**** sub_main ****/
+#sub_main .sub_main_nav_side{
+    float: left;   
+}
+#sub_main section{
+    padding-left: 100px;
+}
+#sub_main .sub_main_list li{
+    float: left;
+}
+
+/**** detail_main ****/
+#detail_main aside{
+    float:left;
+}
+.detail_main_section_top img{
+    float:left;
+}
+#detail_main .detail_main_card{
+    float:left;
+}
+#detail_main .detail_main_section_bottom h2{
+    text-align: center;
+}
+
+
+
+/************** module css *******************/
+.Montserrat {
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+.Josefin {
+    font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
+}
+
+.clearfix:after {
+    content:'';
+    display:block;
+    clear:both;
+}
+
+.eraser {
+    display:none;
+}
+
+.detail_main_section_top img{
+    
+    width: 557px;
+    height: 1024px;
+}
+
+
+
+
+
+
+
+/************** state css *******************/
+
+
+
+
+
+
+
+
+/************** theme css *******************/
+
+
+
+
+
+

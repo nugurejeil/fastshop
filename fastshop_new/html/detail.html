@@ -4,33 +4,43 @@
         <meta charset="utf-8">
         <title>fastshop_detail_Ver.2</title>
         <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	    <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:300' rel='stylesheet' type='text/css'>
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     </head>
     <body>
         <header id="global_header">
+           <div class="global_header_top_wraper">
             <div class="global_header_top">
+                <i class="fa fa-search"></i>
                 <input type="text" placeholder="Search...">
                 <nav class="clearfix">
                     <ul>
-                        <li><a href="">로그인</a></li>
-                        <li><a href="">회원가입</a></li>
-                        <li><a href="">고객센터</a></li>
-                        <li><a href="">장바구니</a>
-                        <span class="cart_num">0</span>
-                        </li>
+                    <li><a href="">로그인</a></li>
+                    <li><a href="">회원가입</a></li>
+                    <li><a href="">고객센터</a></li>
+                    <li class="global_header_cart">
+                    <a href="">
+                    <i class="fa fa-shopping-cart"></i>장바구니
+                    <i class="fa fa-circle"></i>
+                    </a>
+                    <span class="cart_num">0</span>
+                    </li>
                     </ul>
                 </nav>
             </div>
+            </div>
             
             <div class="global_header_bottom">
-               <img src="#" alt="main title image" title="fastshop">
+               <img src="../img/logo.png" alt="main title image" title="fastshop">
                <nav>
                    <ul class="clearfix">
-                       <li><a href="">WHAT'S NEW</a></li>
-                       <li><a href="">CLOTHING</a></li>
-                       <li><a href="">SHOES</a></li>
-                       <li><a href="">BAGS</a></li>
-                       <li><a href="">ASSESSORIES</a></li>
-                       <li><a href="">SALE</a></li>
+                   <li><a href="">WHAT'S NEW</a></li>
+                   <li><a href="">CLOTHING</a></li>
+                   <li><a href="">SHOES</a></li>
+                   <li><a href="">BAGS</a></li>
+                   <li><a href="">ACCESSORIES</a></li>
+                   <li><a href="">SALE</a></li>
                    </ul>
                </nav> 
             </div>
@@ -97,7 +107,8 @@
             </section>
         </main>
         <footer id="global_footer">
-            <img src="#" alt="footer title image" title="learning fast by fastshop">
+           <div>
+            <img src="../img/logo_small.png" alt="footer title image" title="learning fast by fastshop">
             <ul class="global_footer_ul clearfix">
                 <li>
                     <p>INFORMATION</p>
@@ -129,14 +140,15 @@
                 <li>
                     <p>STAY CONNECT</p>
                     <ul>
-                        <li><a href="#">페이스북</a></li>
-                        <li><a href="#">트위터</a></li>
-                        <li><a href="#">인스타그램</a></li>
-                        <li><a href="#">핀터레스트</a></li>
+                        <li><a href="#"><i class="fa fa-facebook-square"></i> 페이스북</a></li>
+                        <li><a href="#"><i class="fa fa-twitter-square"></i> 트위터</a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i> 인스타그램</a></li>
+                        <li><a href="#"><i class="fa fa-pinterest-square"></i> 핀터레스트</a></li>
                     </ul>
                 </li>
             </ul>
-            <p>&#169;Copyright 2014 Fast Shop. All Rights Reserved</p>
+            <p class="global_footer_copyright">&#169;Copyright 2014 Fast Shop. All Rights Reserved</p>
+            </div>
         </footer>
     </body>
 </html>

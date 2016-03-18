@@ -16,11 +16,11 @@
                 <input type="text" placeholder="Search...">
                 <nav class="clearfix">
                     <ul>
-                    <li><a href="">로그인</a></li>
-                    <li><a href="">회원가입</a></li>
-                    <li><a href="">고객센터</a></li>
+                    <li><a href="#">로그인</a></li>
+                    <li><a href="#">회원가입</a></li>
+                    <li><a href="#">고객센터</a></li>
                     <li class="global_header_cart">
-                    <a href="">
+                    <a href="#">
                     <i class="fa fa-shopping-cart"></i>장바구니
                     <i class="fa fa-circle"></i>
                     </a>
@@ -32,15 +32,19 @@
             </div>
             
             <div class="global_header_bottom">
+               <div class="global_header_logo">
+               <a href="#">
                <img src="../img/logo.png" alt="main title image" title="fastshop">
+               </a>
+               </div>
                <nav>
                    <ul class="clearfix">
-                   <li><a href="">WHAT'S NEW</a></li>
-                   <li><a href="">CLOTHING</a></li>
-                   <li><a href="">SHOES</a></li>
-                   <li><a href="">BAGS</a></li>
-                   <li><a href="">ACCESSORIES</a></li>
-                   <li><a href="">SALE</a></li>
+                   <li><a href="#">WHAT'S NEW</a></li>
+                   <li><a href="#">CLOTHING</a></li>
+                   <li><a href="#">SHOES</a></li>
+                   <li><a href="#">BAGS</a></li>
+                   <li><a href="#">ACCESSORIES</a></li>
+                   <li><a href="#">SALE</a></li>
                    </ul>
                </nav> 
             </div>
@@ -51,62 +55,86 @@
                 <ul>
                     <li>
                         <a href="#">
-                        <img src="#" alt="main_aside_image" title="item front">
+                        <img src="../img/sample1_1_s.jpg" alt="main_aside_image" title="item front">
+                        <div class="white_cover"></div>
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                        <img src="#" alt="main_aside_image" title="item back">
+                        <img src="../img/sample1_2.jpg" alt="main_aside_image" title="item back">
+                        <div class="white_cover"></div>
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                        <img src="#" alt="main_aside_image" title="item side">
+                        <img src="../img/sample1_3.jpg" alt="main_aside_image" title="item side">
+                        <div class="white_cover"></div>
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                        <img src="#" alt="main_aside_image" title="item fullshot">
+                        <img src="../img/sample1_4.jpg" alt="main_aside_image" title="item fullshot">
+                        <div class="white_cover"></div>
                         </a>
                     </li>
                 </ul>
             </aside>
             <section class="detail_main_section_top clearfix">
                 <h2 class="eraser">item detail</h2>
-                <img src="#" alt="main_item_image" title="item front">
-                <div class="detail_main_card">
-                    <h3>Lodlow Hooded Leather Jacket</h3>
-                    <div class="detail_price">
-                        <span>&#8361;</span>
-                        <strong>94,200</strong>    
-                    </div>
-                    <div class="detail_reviews">
-                        <div class="star_point">별점자리</div>
-                        <a href="#">
+                <img src="../img/sample1_1_l.jpg" alt="main_item_image" title="item front">
+                <div class="clearfix detail_main_card">
+                    <h3>Ludlow Hooded Leather Jacket</h3>
+                        <div class="detail_price_info">
+                        <i class="fa fa-krw"></i>
+                        <strong class="detail_price">94,200</strong>
+                        </div>    
+                    <div class="clearfix detail_info">
+                        <div class="star_point">
+                            <ul>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                            </ul>
+                        </div>
+                        <a href="#" class="reviews_link">
                             <span>0</span>
                             <span>Reviews</span>
                         </a>
                     </div>
-                    <div class="detail_options">
+                    <form class="detail_options">
                         <p>Select Color and Size</p>
-                        <div class="dropdown_color">색상선택</div>
-                        <div class="dropdown_num">수량</div>
+                        <select name="colors" class="dropdown_color">
+                            <option value="Green|S">Green|S</option>
+                            <option value="Green|M">Green|M</option>
+                            <option value="Green|L">Green|L</option>
+                            <option value="Brown|M">Brown|M</option>
+                            <option value="Brown|L">Brown|L</option>
+                        </select>
+                        <select name="count" class="dropdown_num">
+                        </select>
                         <button>Add to Cart</button>
-                    </div>
+                    </form>
                     <div class="accordion_description">
-                        상세설명
+                        <a href="#">
+                        DESCRIPTION
+                        <i class="fa fa-plus"></i>
+                        </a>
                     </div>
                     <div class="accordion_shipreturn">
-                        배송+환불
+                        <a href="#">
+                        SHIPPING + RETURNS
+                        <i class="fa fa-plus"></i>
+                        </a>
                     </div>
-                    
                 </div>
             </section>
             <section class="detail_main_section_bottom">
                 <h2>YOU MAY ALSO LIKE</h2>
             </section>
         </main>
-        <footer id="global_footer">
+         <footer id="global_footer">
            <div>
             <img src="../img/logo_small.png" alt="footer title image" title="learning fast by fastshop">
             <ul class="global_footer_ul clearfix">

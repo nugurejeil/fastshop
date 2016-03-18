@@ -134,6 +134,18 @@ input{
 #detail_main .detail_main_section_bottom h2{
     text-align: center;
 }
+#detail_main .detail_price_info i{
+    float:left;
+}
+#detail_main .detail_price{
+    float:left;
+}
+#detail_main .detail_info .star_point{
+    float:left;
+}
+#detail_main .star_point li{
+    float:left;
+}
 
 
 
@@ -147,12 +159,6 @@ input{
 
 .eraser {
     display:none;
-}
-
-.detail_main_section_top img{
-    
-    width: 557px;
-    height: 1024px;
 }
 
 /*global header*/
@@ -258,10 +264,7 @@ input{
     font-weight: 700;
     transition: 0.3s;
 }
-.global_header_bottom li a:hover{
-    background: black;
-    color: white;
-}
+
 
 
 /*global footer*/
@@ -325,10 +328,7 @@ input{
     overflow: hidden;
     border: 1px solid #ccc;
 }
-.index_main_carousel:hover .index_main_carousel_box i{
-    color: rgba(255, 255, 255, 1);
-    
-}
+
 .index_main_carousel_box ul{
     height:100%;
 }
@@ -468,14 +468,185 @@ input{
     color:#aaa;
 }
 
+/**************detail_main.css ****************/
+
+#detail_main{
+    width:1164px;
+    margin: 0 auto;
+    margin-top:10px;    
+}
+
+#detail_main aside li{
+    width:100px;
+    height: 150px;
+    padding: 17px 0;
+}
+#detail_main aside li a{
+    position:relative;
+    background:yellow;
+    display:block;
+    width:80px;
+    margin:0 auto;
+    z-index: 100;
+}
+
+#detail_main aside li .white_cover{
+    content:'';
+    display:block;
+    position:absolute;
+    top:0;
+    width:100%;
+    height:100%;
+    background:rgba(255, 255, 255, 0.5);
+    z-index: 2;
+    transition: 0.3s;
+}
+
+#detail_main aside li img{
+    position:relative;
+    display:block;
+    z-index: 1;
+    width:100%;
+}
+
+.detail_main_section_top img{
+    width: 580px;
+    
+}
+.detail_main_card{
+    width:484px;
+}
+.detail_main_card h3{
+    margin-top:18px;
+    font-size:1.49rem;
+    font-weight:700;
+    margin-bottom:22px;
+}
+.detail_main_card i{
+    font-size: 0.88rem;
+    font-weight: 800;
+}
+.detail_main_card .detail_price{
+    padding-left:7px;
+    font-size: 1.49rem;
+    font-weight: 800;
+}
+.detail_main_card .detail_info{
+    padding-left:280px;
+}
+.detail_info .star_point li{
+    padding-right:4px;
+}
+.detail_info .star_point li i{
+    font-size:0.75rem;
+    color:#ccc;
+}
+.detail_info .reviews_link{
+    margin-left:11px;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    color:#999;
+    
+}
+.detail_main_card .detail_options{
+    margin-top:39px;
+    border-top:1px solid #eee;
+}
+.detail_options p{
+    margin-top:18px;
+    margin-bottom:13px;
+}
+.detail_options select{
+    width: 49.1%;
+    height: 32px;
+    border: 0;
+    outline: 1px inset black; 
+    outline-offset:-1px;
+    background: #000;
+    color: #fff;
+}
+.detail_options .dropdown_color{
+    margin-right:5px;
+}
+
+.detail_options button{
+    display: block;
+    margin-top:16px;
+    width:237px;
+    border:0;
+    font-size:1rem;
+    line-height: 2.1rem;
+    color:#fff;
+    background:#1277d6;
+}
+.accordion_description, .accordion_shipreturn{
+    padding-top:17px;
+    letter-spacing: -0.4px;
+    font-size:1rem;
+    font-weight: 700;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    border-top:1px solid #eee;
+}
+.accordion_description a, 
+.accordion_shipreturn a{
+    display:block;
+}
+.accordion_description{
+    margin-top:15px;
+}
+.accordion_shipreturn{
+    margin-top:18.5px;
+    padding-bottom:17px;
+    border-bottom:1px solid #eee;
+}
+.accordion_description i, .accordion_shipreturn i{
+    float:right;
+    margin-top:4px;
+    font-size:0.3rem;
+}
+.detail_main_section_bottom{
+    margin-bottom:-10px;
+}
+.detail_main_section_bottom h2{
+    margin-top:30px;
+    padding-bottom:0px;
+    letter-spacing:0.03rem;
+    font-size:1.3rem;
+    font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
+}
+.detail_main_section_bottom h2:before{
+    content:'';
+    float:left;
+    display:inline-block;
+    width:458px;
+    margin-top:10px;
+    border-bottom: 1px solid black;
+    border-color:#eee;
+    
+}
+.detail_main_section_bottom h2:after{
+    content:'';
+    float:right;
+    display:inline-block;
+    width:458px;
+    margin-top:10px;
+    border-bottom: 1px solid black;
+    border-color:#eee;
+}
+
 /************** state css *******************/
 
+.global_header_bottom li a:hover{
+    background: black;
+    color: white;
+}
 
+.index_main_carousel:hover .index_main_carousel_box i{
+    color: rgba(255, 255, 255, 1);   
+}
 
-
-
-
-
+#detail_main aside li .white_cover:hover {
+    background:rgba(255, 255, 255, 0);
+}
 
 /************** theme css *******************/
 

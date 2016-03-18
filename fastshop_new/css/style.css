@@ -117,9 +117,6 @@ input{
 #sub_main .sub_main_nav_side{
     float: left;   
 }
-#sub_main section{
-    padding-left: 100px;
-}
 #sub_main .sub_main_list li{
     float: left;
 }
@@ -409,7 +406,67 @@ input{
 }
 
 
-
+/************** sub_main.css ****************/
+#sub_main{
+    margin: 0 auto;
+    margin-top:9px;
+    width: 1164px;
+   
+}
+#sub_main section {
+    padding-left: 200px;
+}
+.sub_main_nav_side{
+    width:190px;
+    padding-top:14px
+    
+}
+.sub_main_nav_side h2{
+    position:relative;
+    padding-left:70px;
+    font-size: 1.35rem;
+}
+.sub_main_nav_side h2:after{
+    position:absolute;
+    content:'';
+    display:block;
+    left:0;
+    width:180px;
+    padding-bottom: 23px;
+    border-bottom:1px solid #eee;
+}
+.sub_main_nav_side ul{
+    margin-top:34px;
+    padding-left:30px;
+    font-size:14px;
+}
+.sub_main_nav_side li{
+    padding-top:9%
+}
+.sub_main_list{
+    margin-top: 31px;
+    width:868px;
+}
+.sub_main_list li{
+    width:25%;
+    height:424px;
+    margin-bottom: 40px;
+}
+.sub_main_list li img{
+    width:100%;
+}
+.sub_main_list li figcaption{
+    margin-top: 6px;
+    text-align: center;
+}
+.sub_main_list li strong{
+    font-weight: 800;
+}
+.sub_main_list li s{
+    display:block;
+    margin:7px;
+    color:#aaa;
+}
 
 /************** state css *******************/
 
